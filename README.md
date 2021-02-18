@@ -1,6 +1,9 @@
 # Grabify-Spammer
 Simple python application that utilises tor to flood an ip grabber with tor addresses, and rotates after every request. Uses the requests and stem modules. I made this to expermiment with how python can interact with tor and also for people should they expose their ip via a ip grabber to ruin the persons day by spamming pages of junk ip's, and hiding yours in the process.
 
+Images:
+![alt text](https://i.ibb.co/qFbMbMD/download.png)
+
 Prerequsites:
 Tor
 
