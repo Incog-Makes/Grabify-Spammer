@@ -13,7 +13,8 @@ HashedControlPassword 16:05834BCEDD478D1060F1D7E2CE98E9C13075E8D3061D702F63BCD67
 (that hashed password is "password" which is NOT reccomended for use as hacking goes brrt, If you are unaware of how to generate a password, open a cmd prompt in the tor executable directory and enter tor --hash-password "<new_password>" replace <new_password> with the one you want.)
 
 2. start tor, either through the browser and having that start up the proxy, or through the tor executable.
-(Note, you will need to remove the service and reinstall again if previously installed, shown below:)
+(Note, you will need to remove the service and reinstall again if previously installed, shown below:
+
 tor --service remove
 tor --service install -options ControlPort 9051
 tor --service restart
