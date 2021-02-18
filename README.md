@@ -16,7 +16,9 @@ HashedControlPassword 16:05834BCEDD478D1060F1D7E2CE98E9C13075E8D3061D702F63BCD67
 (Note, you will need to remove the service and reinstall again if previously installed, shown below:
 
 tor --service remove
+
 tor --service install -options ControlPort 9051
+
 tor --service restart
 
 3. edit the script and enter the link url, and header if needed.
